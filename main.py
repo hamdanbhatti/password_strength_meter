@@ -58,6 +58,15 @@ if password:
 else:
     st.info("Please enter a password to check its strength.")
 
+st.markdown(
+    """
+    <style>
+        footer {visibility: hidden;}
+        .viewerBadge_container__1QSob {display: none !important;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
         
         
